@@ -10,6 +10,7 @@ export * from './Store/make-in-memory-store';
 export * from './Store/make-cache-manager-store';
 export * from './Store/make-ordered-dictionary';
 export * from './Store/object-repository';
+export * from './Store';
 export type WASocket = ReturnType<typeof makeWASocket>;
 export { makeWASocket };
 export default makeWASocket;
