@@ -1,0 +1,15 @@
+import makeWASocket from './Socket';
+export * from '../WAProto';
+export * from './Utils';
+export * from './Types';
+export * from './Defaults';
+export * from './WABinary';
+export * from './WAM';
+export * from './WAUSync';
+export * from './Store/make-in-memory-store';
+export * from './Store/make-cache-manager-store';
+export * from './Store/make-ordered-dictionary';
+export * from './Store/object-repository';
+export type WASocket = ReturnType<typeof makeWASocket>;
+export { makeWASocket };
+export default makeWASocket;
